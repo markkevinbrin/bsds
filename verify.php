@@ -1,10 +1,10 @@
 <?php
 session_start();
 $host="localhost"; // Host name
-$username="root"; // Mysql username
-$password="1Got1Udont!@"; // Mysql password
-$db_name="bsds"; // Database name
-$tbl_name="account"; // Table name
+$username=""; // Mysql username
+$password=""; // Mysql password
+$db_name=""; // Database name
+$tbl_name=""; // Table name
 
 // Connect to server and select databse.
 $conn = mysqli_connect("$host", "$username", "$password", "$db_name")or die("cannot connect");
