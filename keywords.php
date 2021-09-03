@@ -6,9 +6,9 @@ error_reporting(0);
 $_SESSION['username'] = $username;
 
 $host="localhost"; // Host name
-$username="root"; // Mysql username
-$password="1Got1Udont!@"; // Mysql password
-$db_name="bsds"; // Database name
+$username=""; // Mysql username
+$password=""; // Mysql password
+$db_name=""; // Database name
 
 $conn = mysqli_connect("$host", "$username", "$password", "$db_name")or die("cannot connect");
 
