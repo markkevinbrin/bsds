@@ -21,13 +21,13 @@ function initializeDb(){
         case "development":
             $servername = "localhost";
             $username = "root";
-            $password = "1Got1Udont!@";
+            $password = "";
             $dbname = "bsds";
             break;
         default:
             $servername = "localhost";
             $username = "root";
-            $password = "1Got1Udont!@";
+            $password = "";
             $dbname = "bsds";
     }
 
